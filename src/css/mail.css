@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css?family=Saira+Semi+Condensed");
+
+.main-container {
+  width: 50vw;
+  padding: 0vh 0vw 0vh 10vw;
+  top: 20vh;
+  left: 20vw;
+  transform: translate(-7%, 0%);
+  color: #ffffff;
+}
+
+.first-container {
+  cursor: pointer;
+  position: relative;
+}
+
+.first-container h1 {
+  letter-spacing: 0.2vw;
+  font-size: 3vw;
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+  position: relative;
+  margin-right: 2px;
+}
+
+span:after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 0;
+  top: 0;
+  left: 0;
+  transition: 2s;
+  z-index: -5;
+}
+
+.share:hover > h1 > span:nth-child(1):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 100ms;
+  transform: rotate(-25deg);
+}
+
+.share:hover > h1 > span:nth-child(1) {
+  color: #39393b;
+  transition-delay: 110ms;
+}
+
+.share:hover > h1 > span:nth-child(2):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 200ms;
+  transform: rotate(-20deg);
+}
+
+.share:hover > h1 > span:nth-child(2) {
+  color: #39393b;
+  transition-delay: 220ms;
+}
+
+.share:hover > h1 > span:nth-child(3):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 300ms;
+  transform: rotate(-15deg);
+}
+
+.share:hover > h1 > span:nth-child(3) {
+  color: #39393b;
+  transition-delay: 330ms;
+}
+
+.share:hover > h1 > span:nth-child(4):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 400ms;
+  transform: rotate(-10deg);
+}
+
+.share:hover > h1 > span:nth-child(4) {
+  color: #39393b;
+  transition-delay: 440ms;
+}
+
+.share:hover > h1 > span:nth-child(5):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 500ms;
+  transform: rotate(-5deg);
+}
+
+.share:hover > h1 > span:nth-child(5) {
+  color: #39393b;
+  transition-delay: 550ms;
+}
+
+.share:hover > h1 > span:nth-child(6):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 600ms;
+  transform: rotate(0deg);
+}
+
+.share:hover > h1 > span:nth-child(6) {
+  color: #39393b;
+  transition-delay: 660ms;
+}
+
+.share:hover > h1 > span:nth-child(7):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 700ms;
+  transform: rotate(5deg);
+}
+
+.share:hover > h1 > span:nth-child(7) {
+  color: #39393b;
+  transition-delay: 770ms;
+}
+
+.share:hover > h1 > span:nth-child(8):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 800ms;
+  transform: rotate(10deg);
+}
+
+.share:hover > h1 > span:nth-child(8) {
+  color: #39393b;
+  transition-delay: 880ms;
+}
+
+.share:hover > h1 > span:nth-child(9):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 900ms;
+  transform: rotate(15deg);
+}
+
+.share:hover > h1 > span:nth-child(9) {
+  color: #39393b;
+  transition-delay: 990ms;
+}
+
+.share:hover > h1 > span:nth-child(10):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 1000ms;
+  transform: rotate(20deg);
+}
+
+.share:hover > h1 > span:nth-child(10) {
+  color: #39393b;
+  transition-delay: 1100ms;
+}
+
+.share:hover > h1 > span:nth-child(11):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 1110ms;
+  transform: rotate(25deg);
+}
+
+.share:hover > h1 > span:nth-child(11) {
+  color: #39393b;
+  transition-delay: 1200ms;
+}
+
+.share:hover > h1 > span:nth-child(12):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 1210ms;
+  transform: rotate(25deg);
+}
+
+.share:hover > h1 > span:nth-child(12) {
+  color: #39393b;
+  transition-delay: 1300ms;
+}
+
+.share:hover > h1 > span:nth-child(13):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 1310ms;
+  transform: rotate(25deg);
+}
+
+.share:hover > h1 > span:nth-child(13) {
+  color: #39393b;
+  transition-delay: 1400ms;
+}
+
+.share:hover > h1 > span:nth-child(14):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 1410ms;
+  transform: rotate(25deg);
+}
+
+.share:hover > h1 > span:nth-child(14) {
+  color: #39393b;
+  transition-delay: 1500ms;
+}
+
+.share:hover > h1 > span:nth-child(15):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 1510ms;
+  transform: rotate(25deg);
+}
+
+.share:hover > h1 > span:nth-child(15) {
+  color: #39393b;
+  transition-delay: 1600ms;
+}
+
+.share:hover > h1 > span:nth-child(16):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 1610ms;
+  transform: rotate(25deg);
+}
+
+.share:hover > h1 > span:nth-child(16) {
+  color: #39393b;
+  transition-delay: 1700ms;
+}
+
+.share:hover > h1 > span:nth-child(17):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 1710ms;
+  transform: rotate(25deg);
+}
+
+.share:hover > h1 > span:nth-child(17) {
+  color: #39393b;
+  transition-delay: 1800ms;
+}
+
+.share:hover > h1 > span:nth-child(18):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 1810ms;
+  transform: rotate(25deg);
+}
+
+.share:hover > h1 > span:nth-child(18) {
+  color: #39393b;
+  transition-delay: 1900ms;
+}
+
+.share:hover > h1 > span:nth-child(19):after {
+  background: white;
+  width: 100%;
+  transition: 2s;
+  transition-delay: 1910ms;
+  transform: rotate(25deg);
+}
+
+.share:hover > h1 > span:nth-child(19) {
+  color: #39393b;
+  transition-delay: 2000ms;
+}
