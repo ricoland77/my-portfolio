@@ -543,6 +543,16 @@ nav ul:hover {
     line-height: 4.5vw;
   }
 
+  .my-name h1 {
+    font-size: 38px;
+    padding: 9vw 0vw 0.5vh 0vw;
+  }
+
+  .my-name h2 {
+    width: 80vw;
+    font-size: 16px;
+  }
+
   .bg-img-one,
   .bg-img-two,
   .bg-img-three {
@@ -656,6 +666,15 @@ nav ul:hover {
     line-height: 17px;
   }
 
+  .my-name h1 {
+    font-size: 40px;
+  }
+
+  .my-name h2 {
+    width: 75vw;
+    font-size: 18px;
+  }
+
   .bg-img-one,
   .bg-img-two,
   .bg-img-three {
@@ -727,7 +746,7 @@ nav ul:hover {
   }
 
   .my-name h1 {
-    padding: 18vw 0vw 0.5vh 0vw;
+    padding: 20vw 0vw 0.5vh 0vw;
   }
 
   .bg-img-one,
