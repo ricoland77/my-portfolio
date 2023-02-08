@@ -65,11 +65,11 @@ const Presentation = () => {
           <h2 className="title">Elles sont comme le bon vin…</h2>
           <ul className="liste-ul">
             <li className="disc">
-              • JavaScript avec Node.js – variables, conditions, boucles,
+              • JavaScript avec Node.js : Variables, conditions, boucles, <br />
               fonctions et callback...
             </li>
-            <li>• Front-end – HTML5, CSS3, React.js, React Native.</li>
-            <li>• Back-end – serveur Express, API, Base de Données MongoDB.</li>
+            <li>• Front-end : HTML5, CSS3, React.js, React Native.</li>
+            <li>• Back-end : Serveur Express, API, Base de Données MongoDB.</li>
           </ul>
         </div>
 
