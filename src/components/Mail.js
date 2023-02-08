@@ -3,7 +3,7 @@ const Mail = () => {
     <div class="main-container">
       <a href="mailto:ricoland@hotmail.fr" target="_blank" rel="noreferrer">
         <div class="first-container share">
-          <h1>
+          <h1 className="adress-mail">
             <span id="one">r</span>
             <span>i</span>
             <span>c</span>

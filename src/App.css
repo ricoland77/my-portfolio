@@ -145,8 +145,8 @@ nav ul:hover {
 }
 
 .surtitle {
-  width: 9vw;
-  font-size: 1vw;
+  width: 100px;
+  font-size: 10px;
   text-align: center;
   font-family: "Open Sans";
   text-transform: uppercase;
@@ -161,13 +161,13 @@ nav ul:hover {
   font-family: "Open Sans";
   font-weight: 500;
   line-height: 1.4em;
-  font-size: 2.7vw;
+  font-size: 26px;
   margin: 0vh 0vw 2vh 1vw;
 }
 
 .article {
   font-weight: 100;
-  font-size: 2.2vw;
+  font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.07vw;
   padding: 0vh 3vw 0vh 1vw;
@@ -185,7 +185,7 @@ nav ul:hover {
 .btn-cv {
   display: flex;
   justify-content: center;
-  width: 7vw;
+  width: 80px;
   margin: 0vh 0vw 10vh 0vw;
   font-weight: 700;
   padding: 0.3vw;
@@ -207,11 +207,11 @@ nav ul:hover {
 }
 
 .arrow {
-  height: 1.5vw;
+  height: 20px;
 }
 
 .link p {
-  font-size: 1.2vw;
+  font-size: 15px;
 }
 
 .fix-scroll-img {
@@ -308,7 +308,7 @@ nav ul:hover {
 }
 
 .all-section-projects {
-  height: 105vw;
+  height: 130vw;
   margin: 2vh 1vw 0vh 1vw;
 }
 
@@ -560,15 +560,21 @@ nav ul:hover {
 
   .all-section {
     padding: 1vh 0vw 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .visuel {
+    width: 90vw;
+    margin: 0px;
   }
 
   .left-section-contact {
-    width: 40vw;
+    width: 100vw;
   }
 
   .btn-cv {
-    top: 9em;
-    margin: 0vh 0vw 2vh 1vw;
+    margin: 0vh 0vw 2vh 2vw;
   }
 
   .link {
@@ -613,6 +619,25 @@ nav ul:hover {
     height: 70vh;
     padding: 10vh 0px 0px 0px;
   }
+
+  .adress-mail span {
+    font-size: 25px;
+  }
+
+  .main-container {
+    width: 100%;
+  }
+
+  .my-mail {
+    display: flex;
+    justify-content: center;
+  }
+
+  .right-section-contact {
+    display: flex;
+    justify-content: center;
+    flex: 100%;
+  }
 }
 
 /* Medium devices 425 ===> 768 */
@@ -651,8 +676,7 @@ nav ul:hover {
   }
 
   .btn-cv {
-    top: 9em;
-    margin: 0vh 0vw 3vh 1vw;
+    margin: 0vh 0vw 3vh 2vw;
   }
 
   .title-competences {
@@ -722,7 +746,7 @@ nav ul:hover {
   }
 
   .btn-cv {
-    margin: 0vh 0vw 4vh 1vw;
+    margin: 0vh 0vw 4vh 2vw;
   }
 
   .title-competences {
@@ -829,7 +853,8 @@ nav ul:hover {
   }
 
   .btn-cv {
-    margin: 0vh 0vw 5vh 1vw;
+    margin: 0vh 0vw 5vh 2vw;
+    border-radius: 5px;
   }
 
   .title-competences {
@@ -959,7 +984,16 @@ nav ul:hover {
   }
 
   .btn-cv {
-    margin: 0vh 0vw 10vh 1vw;
+    width: 100px;
+    margin: 0vh 0vw 10vh 2vw;
+  }
+
+  .arrow {
+    height: 30px;
+  }
+
+  .link p {
+    font-size: 20px;
   }
 
   .title-competences {
@@ -1096,7 +1130,17 @@ nav ul:hover {
   }
 
   .btn-cv {
-    margin: 0vh 0vw 10vh 1vw;
+    width: 150px;
+    margin: 0vh 0vw 10vh 2vw;
+    border-radius: 10px;
+  }
+
+  .arrow {
+    height: 50px;
+  }
+
+  .link p {
+    font-size: 30px;
   }
 
   .title-competences {
