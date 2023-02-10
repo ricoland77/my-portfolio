@@ -1,8 +1,8 @@
 const Mail = () => {
   return (
-    <div class="main-container">
+    <div className="main-container">
       <a href="mailto:ricoland@hotmail.fr" target="_blank" rel="noreferrer">
-        <div class="first-container share">
+        <div className="first-container share">
           <h1 className="adress-mail">
             <span id="one">r</span>
             <span>i</span>

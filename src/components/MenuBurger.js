@@ -1,28 +1,29 @@
 import { Link } from "react-router-dom";
-import logoPu from "../img/LogoPU.png";
-import burgerPicto from "../img/burger-picto.png";
 
-// import MenuBurger from "./MenuBurger";
-
-const Header = ({ displayMenu, setDisplayMenu }) => {
+const MenuBurger = ({ setDisplayMenu }) => {
   return (
-    <header>
-      <div className="to-center-header">
-        <div className="all-header">
-          {/* logo */}
-          <div>
-            <Link
-              to="/"
-              onClick={() => {
-                window.scrollTo(0, 0);
-              }}
-            >
-              <img className="logoPu" src={logoPu} alt="Logo Peace & Unity" />
-            </Link>
-          </div>
-
-          {/* menu */}
-          <nav className="navbar-links">
+    <div className="app">
+      <div
+        className="floating-menu-root"
+        onClick={() => {
+          setDisplayMenu(false);
+        }}
+      >
+        <div
+          className="floating-menu"
+          onClick={(event) => {
+            event.stopPropagation();
+          }}
+        >
+          <button
+            className="btn-close"
+            onClick={() => {
+              setDisplayMenu(false);
+            }}
+          >
+            X
+          </button>
+          <nav className="floating-menu-links">
             <Link
               to="/"
               onClick={() => {
@@ -56,19 +57,10 @@ const Header = ({ displayMenu, setDisplayMenu }) => {
               <ul className="navbar-link">Contact</ul>
             </Link>
           </nav>
-          <div
-            className="menu-burger"
-            onClick={() => {
-              setDisplayMenu(!displayMenu);
-            }}
-          >
-            <img className="burger" src={burgerPicto} alt="" />
-          </div>
-          {/* <MenuBurger /> */}
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 
-export default Header;
+export default MenuBurger;

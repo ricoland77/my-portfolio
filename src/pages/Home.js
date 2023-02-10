@@ -136,7 +136,10 @@ const Home = () => {
           <h2 className="title">De mes projets</h2>
         </div>
         <div className="all-projects">
-          <Link target="_blank" to={"https://marvel-api-ricoland.netlify.app"}>
+          <Link
+            target="_blank"
+            to={"https://marvel-api-ricoland.netlify.app/characters"}
+          >
             <div className="project">
               <img src={marvel} alt="Site Marvel" />
             </div>
