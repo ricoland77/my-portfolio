@@ -2,16 +2,17 @@
 
 .main-container {
   width: 50vw;
-  padding: 0vh 0vw 0vh 15vw;
   top: 20vh;
   left: 20vw;
-  transform: translate(-7%, 0%);
+  /* transform: translate(-7%, 0%); */
   color: #ffffff;
 }
 
 .first-container {
   cursor: pointer;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .first-container h1 {

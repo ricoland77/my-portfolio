@@ -17,20 +17,28 @@ import { useState } from "react";
 
 function App() {
   const [displayMenu, setDisplayMenu] = useState(false);
+  const [settingTwo, setSettingTwo] = useState(false);
 
   return (
-    <div className="App">
-      <Router>
-        <Header displayMenu={displayMenu} setDisplayMenu={setDisplayMenu} />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/presentation" element={<Presentation />} />
-          <Route path="/project" element={<Project />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer />
-        {displayMenu && <MenuBurger setDisplayMenu={setDisplayMenu} />}
-      </Router>
+    <div className={settingTwo ? "white-mode" : "black-mode"}>
+      <div className="App">
+        <Router>
+          <Header
+            displayMenu={displayMenu}
+            setDisplayMenu={setDisplayMenu}
+            settingTwo={settingTwo}
+            setSettingTwo={setSettingTwo}
+          />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/presentation" element={<Presentation />} />
+            <Route path="/project" element={<Project />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+          <Footer />
+          {displayMenu && <MenuBurger setDisplayMenu={setDisplayMenu} />}
+        </Router>
+      </div>
     </div>
   );
 }

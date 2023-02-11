@@ -65,7 +65,7 @@ const Presentation = () => {
           <h2 className="title">Elles sont comme le bon vin…</h2>
           <ul className="liste-ul">
             <li className="disc">
-              • JavaScript avec Node.js : Variables, conditions, boucles, <br />
+              • JavaScript avec Node.js : Variables, conditions, boucles,
               fonctions et callback...
             </li>
             <li>• Front-end : HTML5, CSS3, React.js, React Native.</li>
