@@ -5,6 +5,7 @@ import deliveroo from "../img/deliveroo.jpg";
 import marmiton from "../img/marmiton.jpg";
 import marvel from "../img/Marvel.png";
 import netflix from "../img/netflix.jpg";
+import punk from "../img/punk.png";
 import rawg from "../img/rawg.png";
 import vinted from "../img/vinted.png";
 
@@ -39,6 +40,11 @@ const Project = () => {
           grandir dans ce domaine passionnant.
         </p>
         <div className="all-projects-bis">
+          <Link target="_blank" to={"https://punk-api-ricoland.netlify.app"}>
+            <div className="project">
+              <img src={punk} alt="Site Punk API" />
+            </div>
+          </Link>
           <Link target="_blank" to={"https://rawg-api-ricoland.netlify.app"}>
             <div className="project">
               <img src={rawg} alt="Site Rawg" />

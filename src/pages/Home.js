@@ -15,6 +15,7 @@ import marvel from "../img/Marvel.png";
 import mongodb from "../img/logos/mongodb.png";
 import nodejs from "../img/logos/nodejs.png";
 import photoshop from "../img/logos/Photoshop.png";
+import punk from "../img/punk.png";
 import quark from "../img/logos/QuarkXpress.png";
 import rawg from "../img/rawg.png";
 import react from "../img/logos/React.png";
@@ -152,6 +153,11 @@ const Home = () => {
           <Link target="_blank" to={"https://rawg-api-ricoland.netlify.app"}>
             <div className="project">
               <img src={rawg} alt="Site Rawg" />
+            </div>
+          </Link>
+          <Link target="_blank" to={"https://punk-api-ricoland.netlify.app"}>
+            <div className="project">
+              <img src={punk} alt="Site Punk API" />
             </div>
           </Link>
         </div>
