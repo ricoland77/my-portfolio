@@ -1440,6 +1440,10 @@ a {
     flex-direction: column;
   }
 
+  .all-section-projects-bis {
+    padding: 3vw 0vw 20vw 0vw;
+  }
+
   .visuel {
     width: 100%;
     margin: 10px 0px;
@@ -1507,11 +1511,12 @@ a {
   }
 
   .all-projects-bis {
-    height: 115vw;
+    /* border: 1px solid red; */
+    height: 60vh;
   }
 
   .project {
-    width: 25vw;
+    width: 17vw;
   }
 
   .project img {
@@ -1603,6 +1608,10 @@ a {
     padding: 1vh 0vw 1vh 0vw;
     display: flex;
     flex-direction: column;
+  }
+
+  .all-section-projects-bis {
+    padding: 3vw 12.4vw 20vw 12.4vw;
   }
 
   .btn-cv {
