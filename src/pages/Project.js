@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Flipbook from "../components/Flipbook";
 
 // Import images
 import deliveroo from "../img/deliveroo.jpg";
@@ -17,7 +18,7 @@ const Project = () => {
         <div className="bg-img-three">
           <div className="all-name">
             <div className="my-name">
-              <h1>Full Stack</h1>
+              <h1>Développeur</h1>
               <h2>React - JavaScript - Node.js</h2>
             </div>
           </div>
@@ -37,8 +38,8 @@ const Project = () => {
           Ces projets ont été des opportunités incroyables pour moi de
           développer mes compétences dans ce secteur, et de démontrer ma
           capacité à résoudre des défis complexes. Ils ont également renforcé ma
-          passion pour le Dev et ma détermination à continuer à apprendre et à
-          grandir dans ce domaine passionnant.
+          passion pour le Développement et ma détermination à continuer à
+          apprendre et à me perfectionner dans ce domaine passionnant.
         </p>
         <div className="all-projects-bis">
           <Link target="_blank" to={"https://pexels-api-ricoland.netlify.app"}>
@@ -91,6 +92,36 @@ const Project = () => {
             </div>
           </Link>
         </div>
+      </section>
+
+      <section>
+        <div className="bg-img-fourth">
+          <div className="all-name">
+            <div className="my-name">
+              <h1>Infographiste</h1>
+              <h2>Suite Adobe - QuarkXpress… </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="all-section-projects-bis">
+        <h3 className="surtitle">Mes références</h3>
+        <h2 className="title">Mon book</h2>
+        <p className="article">
+          Maquettiste, exécutant et photograveur… depuis la création graphique
+          de logos à la création de magazines, plaquettes, cartes de visites,
+          annonces presse, encarts publicitaires, mise en page de périodiques
+          institutionnels, en passant par la photogravure comprenant les
+          corrections chromatiques des visuels, détourages et montages de toute
+          sorte, j’ai pu expérimenter durant 23 années au poste d’infographiste,
+          chaque étape de la chaîne graphique.
+          <br /> Ainsi, je prends le contrôle total d’un projet. La typographie
+          est traitée dans le respect du code typographique et chaque visuel
+          contrôlé et travaillé dans le format, la résolution et la chromie
+          optimale.
+        </p>
+        <Flipbook />
       </section>
     </div>
   );

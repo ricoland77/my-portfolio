@@ -476,10 +476,20 @@ a {
   background-image: url("./img/Projets.jpg");
 }
 
+.bg-img-fourth {
+  background-image: url("./img/Projets02.jpg");
+}
+
 .bg-img-three:hover {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
 }
+
+.bg-img-fourth:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
 .all-projects-bis {
   height: 127vw;
   display: flex;
@@ -780,7 +790,8 @@ a {
 
   .bg-img-one,
   .bg-img-two,
-  .bg-img-three {
+  .bg-img-three,
+  .bg-img-fourth {
     height: 50vw;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -966,7 +977,8 @@ a {
 
   .bg-img-one,
   .bg-img-two,
-  .bg-img-three {
+  .bg-img-three,
+  .bg-img-fourth {
     height: 50vw;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -1092,7 +1104,8 @@ a {
 
   .bg-img-one,
   .bg-img-two,
-  .bg-img-three {
+  .bg-img-three,
+  .bg-img-fourth {
     height: 65vw;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -1244,7 +1257,8 @@ a {
 
   .bg-img-one,
   .bg-img-two,
-  .bg-img-three {
+  .bg-img-three,
+  .bg-img-fourth {
     height: 70vw;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -1421,7 +1435,8 @@ a {
 
   .bg-img-one,
   .bg-img-two,
-  .bg-img-three {
+  .bg-img-three,
+  .bg-img-fourth {
     height: 60vw;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -1590,7 +1605,8 @@ a {
 
   .bg-img-one,
   .bg-img-two,
-  .bg-img-three {
+  .bg-img-three,
+  .bg-img-fourth {
     height: 60vw;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
