@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import Flipbook from "../components/Flipbook";
 
 // Import images
+import anonymous from "../img/anonymous-label-site.jpg";
 import deliveroo from "../img/deliveroo.jpg";
-import marmiton from "../img/marmiton.jpg";
 import marvel from "../img/Marvel.png";
 import netflix from "../img/netflix.jpg";
 import pexels from "../img/pexels.jpg";
@@ -42,6 +42,11 @@ const Project = () => {
           apprendre et à me perfectionner dans ce domaine passionnant.
         </p>
         <div className="all-projects-bis">
+          <Link target="_blank" to={"https://anonymous-label.netlify.app/"}>
+            <div className="project">
+              <img src={anonymous} alt="Site Anonymous Label" />
+            </div>
+          </Link>
           <Link target="_blank" to={"https://pexels-api-ricoland.netlify.app"}>
             <div className="project">
               <img src={pexels} alt="Site Pexels API" />
@@ -81,14 +86,6 @@ const Project = () => {
           <Link target="_blank" to={"https://netflix-ricoland.netlify.app/"}>
             <div className="project">
               <img src={netflix} alt="Site Netflix" />
-            </div>
-          </Link>
-          <Link
-            target="_blank"
-            to={"https://marmiton-by-ricoland.netlify.app/"}
-          >
-            <div className="project">
-              <img src={marmiton} alt="Site Marmiton" />
             </div>
           </Link>
         </div>

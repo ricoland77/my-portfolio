@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Mail from "../components/Mail";
 
 // Import images
+import anonymous from "../img/anonymous-label-site.jpg";
 import css from "../img/logos/CSS3.png";
 import express from "../img/logos/express.png";
 import fleche from "../img/fleche.ico";
@@ -137,17 +138,14 @@ const Home = () => {
           <h2 className="title">De mes projets</h2>
         </div>
         <div className="all-projects">
-          <Link
-            target="_blank"
-            to={"https://marvel-api-ricoland.netlify.app/characters"}
-          >
+          <Link target="_blank" to={"https://anonymous-label.netlify.app"}>
             <div className="project">
-              <img src={marvel} alt="Site Marvel" />
+              <img src={anonymous} alt="Site Anonymous Label" />
             </div>
           </Link>
-          <Link target="_blank" to={"https://vinted-api-ricoland.netlify.app"}>
+          <Link target="_blank" to={"https://punk-api-ricoland.netlify.app"}>
             <div className="project">
-              <img src={vinted} alt="Site Vinted" />
+              <img src={punk} alt="Site Punk API" />
             </div>
           </Link>
           <Link target="_blank" to={"https://rawg-api-ricoland.netlify.app"}>
@@ -155,9 +153,17 @@ const Home = () => {
               <img src={rawg} alt="Site Rawg" />
             </div>
           </Link>
-          <Link target="_blank" to={"https://punk-api-ricoland.netlify.app"}>
+          <Link target="_blank" to={"https://vinted-api-ricoland.netlify.app"}>
             <div className="project">
-              <img src={punk} alt="Site Punk API" />
+              <img src={vinted} alt="Site Vinted" />
+            </div>
+          </Link>
+          <Link
+            target="_blank"
+            to={"https://marvel-api-ricoland.netlify.app/characters"}
+          >
+            <div className="project">
+              <img src={marvel} alt="Site Marvel" />
             </div>
           </Link>
         </div>
