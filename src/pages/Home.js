@@ -60,7 +60,7 @@ const Home = () => {
           target="_blank"
           className="link"
           to={
-            "https://drive.google.com/file/d/1VrlafneNRTMkguFylke-rorUUJyNxGuX/view?usp=sharing"
+            "https://drive.google.com/file/d/1ZUJ6qKSMAv7TGeRRILwvxUfR9mEWtvL1/view?usp=drive_link"
           }
         >
           <img className="arrow" src={fleche} alt="Arrow pictogram" />
