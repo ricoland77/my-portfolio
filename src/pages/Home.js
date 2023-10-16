@@ -11,7 +11,6 @@ import html from "../img/logos/HTML5.png";
 import inDesign from "../img/logos/InDesign.png";
 import illustrator from "../img/logos/Illustrator.png";
 import javascript from "../img/logos/javascript.png";
-import mac from "../img/mac.jpg";
 import marvel from "../img/Marvel.png";
 import mongodb from "../img/logos/mongodb.png";
 import nodejs from "../img/logos/nodejs.png";
@@ -50,23 +49,20 @@ const Home = () => {
             compétences en tant que Développeur.
           </p>
         </div>
-        <div className="right-section">
-          <img className="visuel" src={mac} alt="Macbook" />
+
+        <div className="btn-cv">
+          <Link
+            target="_blank"
+            className="link"
+            to={
+              "https://drive.google.com/file/d/1ZUJ6qKSMAv7TGeRRILwvxUfR9mEWtvL1/view?usp=drive_link"
+            }
+          >
+            <img className="arrow" src={fleche} alt="Arrow pictogram" />
+            <p>Mon CV</p>
+          </Link>
         </div>
       </section>
-
-      <div className="btn-cv">
-        <Link
-          target="_blank"
-          className="link"
-          to={
-            "https://drive.google.com/file/d/1ZUJ6qKSMAv7TGeRRILwvxUfR9mEWtvL1/view?usp=drive_link"
-          }
-        >
-          <img className="arrow" src={fleche} alt="Arrow pictogram" />
-          <p>Mon CV</p>
-        </Link>
-      </div>
 
       <div className="fix-scroll-img">
         <div className="scroll-img"></div>
@@ -169,7 +165,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="all-section">
+      <section className="all-section-contact">
         <div className="left-section-contact">
           <h3 className="surtitle">Contactez-moi</h3>
           <h2 className="title">Une question ?</h2>

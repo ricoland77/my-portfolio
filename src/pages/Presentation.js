@@ -33,7 +33,7 @@ const Presentation = () => {
             qu’infographiste Print, travaillant avec passion sur des projets
             pour des clients variés dans le monde de l'Édition. Cette expérience
             a été riche en défis, en découvertes et en apprentissages, me
-            permettant de développer des compétences techniques solides, mais
+            permettant de développer des compétences techniques solides… mais
             aussi des valeurs fortes qui guideront mon parcours à venir.
             L'infographie Print est un métier exigeant qui requiert une grande
             précision et une attention constante aux détails. Au fil des ans,
@@ -214,15 +214,6 @@ const Presentation = () => {
             projets plus stimulants. J’ai toujours eu une passion pour les
             nouvelles technologies et la programmation, et cette formation m’a
             offert l’occasion de la concrétiser. <br />
-            Aujourd’hui, je suis{" "}
-            <strong>
-              à la recherche d'un stage de 6 mois en tant que Développeur Web &
-              Mobile
-            </strong>{" "}
-            afin de mettre en pratique mes connaissances et de développer mes
-            compétences. Je suis convaincu que ce stage sera l’occasion pour moi
-            de me perfectionner davantage, de découvrir de nouvelles méthodes de
-            travail, et de contribuer à l’entreprise qui m’accueillera.
           </p>
         </div>
       </section>
